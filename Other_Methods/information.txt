@@ -1,0 +1,5 @@
+Other modules was used to test opening data.
+
+Under requirements the packages needed for running the script in the notebook is found..
+
+MZA requires as special pre-processing throught the MZA exe package, info can be found here: https://github.com/PNNL-m-q/mza/releases
