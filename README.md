@@ -6,7 +6,7 @@ Install packages or create enviroment to facilitate packages, for example conda 
 
 Clone the repository
 
-git clone https://github.com/Micholms/tims_tof_data_extraction
+  git clone https://github.com/Micholms/tims_tof_data_extraction
 
 **To enable REST API for MetaboScape:**
 
