@@ -17,7 +17,8 @@ Make sure the computer you are on can talk to the computer where MetaboScape is 
 pandas, numpy, matplotlib.pyplot and seaborn.
 
 **Optional: Install fiora:**
-From here: 
+
+From here: https://github.com/BAMeScience/fiora.git
 
 ## Step 2
 Run REST API for MetaboScape to analyze the experiments. "Rest_API_metaboscape.ipynb"
@@ -25,6 +26,12 @@ More information located in the file.
 
 The output can then be further analyzed by "data_handling_REST_API.ipynb". 
 For example, counting matches, pre-filtering and preparing the data for modelling.
+
+After matching of data, filtering can be run through (also part of "data_handling_REST_API.ipynb")
+
+  !python filter_data.py -i "test.csv" -o "test_preprocessed.csv"
+
+Editing the filter_data script, parameters can be changed
 
 ## Step 3
 Optional: If fiora is installed, training using the pre-processed data could be done.
