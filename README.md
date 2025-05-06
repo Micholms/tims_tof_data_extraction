@@ -27,11 +27,13 @@ More information located in the file.
 The output can then be further analyzed by "data_handling_REST_API.ipynb". 
 For example, counting matches, pre-filtering and preparing the data for modelling.
 
-After matching of data, filtering can be run through (also part of "data_handling_REST_API.ipynb")
+Alternatively, the matching and filtering can be done through
 
-  !python filter_data.py -i "test.csv" -o "test_preprocessed.csv"
+  ! python target_match.py -i "test_unprocessed.csv" -o "test_filtered.csv" -t "plate_targets.csv"
 
-Editing the filter_data script, parameters can be changed
+  !python filter_data.py -i "test_filtered.csv" -o "test_preprocessed.csv"
+
+Editing the filter_data script, parameters can be changed. Note: to filter data, Fiora in required! 
 
 ## Step 3
 Optional: If fiora is installed, training using the pre-processed data could be done.
