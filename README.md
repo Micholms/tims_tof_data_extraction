@@ -7,7 +7,7 @@ Install packages or create enviroment to facilitate packages, for example conda 
 **To enable REST API for MetaboScape:**
 
 Install the swagger_client using README information in python_client_generated the .zip file. 
-Make sure the computer you are one can talk to the computer where MetaboScape is installed. 
+Make sure the computer you are on can talk to the computer where MetaboScape is installed. 
 
 **Install packages for processing of data:**
 pandas, numpy, matplotlib.pyplot and seaborn.
