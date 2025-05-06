@@ -1,6 +1,6 @@
 # tims_tof_data_extraction
 
-___Step 1___
+## Step 1
 
 Install packages or create enviroment to facilitate packages, for example conda environment.
 
@@ -15,15 +15,14 @@ pandas, numpy, matplotlib.pyplot and seaborn.
 **Optional: Install fiora:**
 From here: 
 
-
-___Step 2___
+## Step 2
 Run REST API for MetaboScape to analyze the experiments. "Rest_API_metaboscape.ipynb"
 More information located in the file.
 
 The output can then be further analyzed by "data_handling_REST_API.ipynb". 
 For example, counting matches, pre-filtering and preparing the data for modelling.
 
-__Step 3__
+## Step 3
 Optional: If fiora is installed, training using the pre-processed data could be done.
 
 
