@@ -30,9 +30,9 @@ For example, counting matches, pre-filtering and preparing the data for modellin
 
 Alternatively, the matching and filtering can be done through
 
-  ! python target_match.py -i "test_unprocessed.csv" -o "test_filtered.csv" -t "plate_targets.csv"
+    python target_match.py -i "test_unprocessed.csv" -o "test_filtered.csv" -t "plate_targets.csv"
 
-  !python filter_data.py -i "test_filtered.csv" -o "test_preprocessed.csv"
+    python filter_data.py -i "test_filtered.csv" -o "test_preprocessed.csv"
 
 Editing the filter_data script, parameters can be changed. Note: to filter data, Fiora in required! 
 
