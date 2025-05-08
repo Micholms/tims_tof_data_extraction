@@ -19,6 +19,7 @@ pandas, numpy, matplotlib.pyplot and seaborn.
 **Optional: Install fiora:**
 
 From here: https://github.com/BAMeScience/fiora.git
+or https://github.com/Micholms/ms_model_fiora for more specific version
 
 ## Step 2
 Run REST API for MetaboScape to analyze the experiments. "Rest_API_metaboscape.ipynb"
